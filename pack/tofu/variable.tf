@@ -22,8 +22,9 @@ variable "remaining_space_low" {
   default     = 20
   description = "Percent value at which the disk utilization is considered _high_."
 }
+
 variable "remaining_space_critical" {
   type        = number
   default     = 10
-  description = "Percent value at which the disk utilization is considered _full."
+  description = "Percent value at which the disk utilization is considered _full_."
 }
